@@ -1,5 +1,7 @@
 # Wirth a day
 
+[一日一C](https://www.facebook.com/photo/?fbid=28491572307158144&set=a.307873909288028) in [Wirth](https://github.com/code4fukui/Wirth/)
+
 ```
 function putchar from "./putchar.js"
 
