@@ -10,5 +10,5 @@ function putchars(s, n)
   next
 end
 
-moji = [226, 157, 164]
+moji <- [226, 157, 164]
 putchars(moji, 3)

@@ -8,7 +8,7 @@ function putchars(s)
   next
 end
 
-moji = [226, 157, 164, 0]
-moji2 = [64, 0]
+moji <- [226, 157, 164, 0]
+moji2 <- [64, 0]
 putchars(moji)
 putchars(moji2)
