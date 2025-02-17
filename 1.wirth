@@ -1,0 +1,5 @@
+# https://x.com/yrm__/status/1886277809964036183
+
+function putchar from "./putchar.js"
+
+putchar(67)
