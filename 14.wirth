@@ -1,0 +1,12 @@
+function putchar from "./putchar.js"
+
+function putchars(s)
+  i <- 0
+  while s[i]
+    putchar(s[i])
+    i <- i + 1
+  next
+end
+
+moji = [226, 157, 164, 0]
+putchars(moji)
