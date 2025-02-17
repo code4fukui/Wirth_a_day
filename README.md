@@ -17,6 +17,7 @@ moji = [226, 157, 164, 0]
 putchars(moji)
 ```
 
+install [Deno](https://deno.com/)
 ```sh
 deno -A https://code4fukui.github.io/Wirth/cli.js 14.wirth
 ```
@@ -24,4 +25,3 @@ deno -A https://code4fukui.github.io/Wirth/cli.js 14.wirth
 ## reference
 
 - [One good C code a day. 一日一C caday#14 by yrm](https://www.facebook.com/photo/?fbid=28491572307158144&set=a.307873909288028)
-
