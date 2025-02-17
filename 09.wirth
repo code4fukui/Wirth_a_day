@@ -1,0 +1,8 @@
+# https://x.com/yrm__/status/1889236454846718208
+
+function putchar from "./putchar.js"
+
+moji <- [226, 157, 164]
+putchar(moji[0])
+putchar(moji[1])
+putchar(moji[2])
