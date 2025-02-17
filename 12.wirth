@@ -1,0 +1,10 @@
+# https://x.com/yrm__/status/1890268839595897269
+
+function putchar from "./putchar.js"
+
+moji <- [226, 157, 164]
+i <- 0
+while i < 3
+  putchar(moji[i])
+  i <- i + 1
+next
