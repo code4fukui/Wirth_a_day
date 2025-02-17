@@ -1,6 +1,7 @@
-# https://x.com/yrm__/status/1886685261129736401
+# https://x.com/yrm__/status/1887076360302231840
 
 function putchar from "./putchar.js"
+function getCharCode from "./getCharCode.js"
 
-moji <- 67
+moji <- getCharCode("A") + 2
 putchar(moji)
