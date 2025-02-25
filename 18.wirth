@@ -1,0 +1,23 @@
+# https://x.com/yrm__/status/1892452225718329483
+
+function putchar from "./putchar.js"
+function getchar from "./getchar.js"
+
+function putchars(s)
+  i <- 0
+  while s[i]
+    putchar(s[i])
+    i <- i + 1
+  next
+end
+
+love <- [226, 157, 164, 0]
+
+moji <- 0
+while moji != 10
+  moji <- getchar()
+  if moji = 67
+    putchars(love)
+  endif
+  putchar(moji)
+next
