@@ -1,0 +1,21 @@
+# https://x.com/yrm__/status/1896863307946201340
+
+function show(rice)
+  print rice.name, rice.year
+end
+
+rice0 = {
+  name: "Koshihikari",
+  year: 1956,
+}
+rice1 = {
+  name: "Hinohikari",
+  year: 1989,
+}
+rice2 = {
+  name: "Nikomaru",
+  year: 2005,
+}
+show(rice0)
+show(rice1)
+show(rice2)
