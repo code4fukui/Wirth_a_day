@@ -1,0 +1,45 @@
+# https://x.com/yrm__/status/1894178909844853046
+
+function putchar from "./putchar.js"
+function getchar from "./getchar.js"
+
+function putchars(s)
+  i <- 0
+  while s[i]
+    putchar(s[i])
+    i <- i + 1
+  next
+end
+
+function getchars(s)
+  i <- 0
+  while s[i]
+    s[i] <- getchar()
+    i <- i + 1
+  next
+end
+
+function encrypt(s)
+  i <- 0
+  while s[i]
+    s[i] <- s[i] + 1
+    i <- i + 1
+  next
+end
+
+function decrypt(s)
+  i <- 0
+  while s[i]
+    s[i] <- s[i] - 1
+    i <- i + 1
+  next
+end
+
+mojis <- [1, 1, 1, 1, 0]
+getchars(mojis)
+encrypt(mojis)
+putchars(mojis)
+putchar(10)
+decrypt(mojis)
+putchars(mojis)
+putchar(10)
