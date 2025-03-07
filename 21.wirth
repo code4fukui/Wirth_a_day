@@ -1,0 +1,27 @@
+# https://x.com/yrm__/status/1893453153607262724
+
+function putchar from "./putchar.js"
+function getchar from "./getchar.js"
+
+function putchars(s)
+  i <- 0
+  while s[i]
+    putchar(s[i])
+    i <- i + 1
+  next
+end
+
+function getchars(s)
+  i <- 0
+  while s[i]
+    s[i] <- getchar()
+    i <- i + 1
+  next
+end
+
+mojis <- [1, 1, 1, 0]
+getchars(mojis)
+mojis[0] = mojis[0] + 1
+mojis[1] = mojis[1] + 1
+mojis[2] = mojis[2] + 1
+putchars(mojis)
