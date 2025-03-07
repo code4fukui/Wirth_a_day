@@ -4,15 +4,15 @@ function show(rice)
   print rice.name, rice.year
 end
 
-rice0 = {
+rice0 <- {
   name: "Koshihikari",
   year: 1956,
 }
-rice1 = {
+rice1 <- {
   name: "Hinohikari",
   year: 1989,
 }
-rice2 = {
+rice2 <- {
   name: "Nikomaru",
   year: 2005,
 }
